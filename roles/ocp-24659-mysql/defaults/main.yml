@@ -1,8 +1,7 @@
 namespace: ocp-24659-mysql
 
 app_name: mysql
-storage_size: 1Mi
-
+storage_size: 512Mi
 
 migration_sample_name: "{{ namespace }}"
 migration_plan_name: "{{ migration_sample_name }}-migplan-{{ ansible_date_time.epoch }}"
